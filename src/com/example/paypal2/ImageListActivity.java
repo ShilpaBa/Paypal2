@@ -46,7 +46,7 @@ public class ImageListActivity extends Activity {
                 Intent i = new Intent(getApplicationContext(), ImageActivity.class);
                 // passing array index
                 i.putExtra("id", position);
-                startActivity(i);
+                startActivity(i); 
             }
         });
     }
